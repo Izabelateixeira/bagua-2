@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festejando a Conexão Campo & Cidade</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;700&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1> Festejando a Conexão entre o Campo e a Cidade </h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#inovacao">Inovação</a>
+      <a href="#curiosidades">Curiosidades</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+  <main>
+    <section class="container central" id="sobre">
+      <h2>Sobre o Evento</h2>
+      <p>
+        O <strong>Festejando a Conexão entre o Campo e a Cidade</strong> é um evento inovador que celebra a união entre o rural e o urbano. Aqui, você descobre como o campo e a cidade se complementam, promovendo sustentabilidade, tecnologia, cultura e qualidade de vida para todos.
+      </p>
+      <div class="flex">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Campo fértil">
+          <div class="card-content">
+            <h3>Tradição e Modernidade</h3>
+            <p>O campo preserva tradições e saberes ancestrais, enquanto a cidade impulsiona a inovação e a tecnologia. Juntos, constroem um futuro mais equilibrado.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Cidade vibrante">
+          <div class="card-content">
+            <h3>Economia Circular</h3>
+            <p>Produtos do campo abastecem a cidade, que devolve inovação e infraestrutura para o campo. Uma relação de troca e crescimento mútuo.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=600&q=80" alt="Pessoas conectadas">
+          <div class="card-content">
+            <h3>Cultura e Educação</h3>
+            <p>Feiras, oficinas e projetos educativos unem crianças, jovens e adultos, promovendo respeito e conhecimento mútuo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="infos-extra">
+        <h4>Sabia que?</h4>
+        <ul>
+          <li>Mais de 80% dos alimentos consumidos nas cidades vêm do campo brasileiro.</li>
+          <li>O campo já utiliza drones, sensores e inteligência artificial para otimizar a produção.</li>
+          <li>Projetos urbanos de hortas comunitárias aproximam moradores da origem dos alimentos.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container central" id="inovacao">
+      <h2>Inovação & Tecnologia</h2>
+      <div class="flex">
+        <div class="card tech">
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Sustentabilidade">
+          <div class="card-content">
+            <h3>Agricultura Digital</h3>
+            <p>Uso de sensores, drones e big data no campo para monitorar plantações, prever safras e economizar recursos naturais.</p>
+          </div>
+        </div>
+        <div class="card tech">
+          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80" alt="Inovação tecnológica">
+          <div class="card-content">
+            <h3>Cidades Inteligentes</h3>
+            <p>Aplicativos, mobilidade elétrica e hortas urbanas conectam o cidadão à produção sustentável e à natureza.</p>
+          </div>
+        </div>
+        <div class="card tech">
+          <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" alt="Tecnologia">
+          <div class="card-content">
+            <h3>Internet das Coisas (IoT)</h3>
+            <p>Dispositivos conectados permitem irrigação automática, controle de energia e monitoramento ambiental em tempo real.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cta">
+        <button onclick="window.open('https://www.agroinovacao.com.br', '_blank')">Saiba mais sobre AgroInovação</button>
+      </div>
+    </section>
+
+    <section class="container central curiosidades" id="curiosidades">
+      <h2>Curiosidades Tecnológicas</h2>
+      <ul>
+        <li>O Brasil é líder mundial em agricultura de precisão!</li>
+        <li>Já existem tratores autônomos guiados por GPS no campo.</li>
+        <li>Mercados urbanos estão usando aplicativos para conectar consumidores diretamente a produtores locais.</li>
+        <li>Em algumas cidades, resíduos orgânicos urbanos viram adubo para hortas comunitárias.</li>
+      </ul>
+      <div class="cta">
+        <a href="#sobre" class="voltar">Voltar ao topo</a>
+      </div>
+    </section>
+
+    <section class="container central" id="galeria">
+      <h2>Galeria Interativa</h2>
+      <div class="galeria">
+        <img src="https://images.unsplash.com/photo-1444065381814-865dc9da92c0?auto=format&fit=crop&w=400&q=80" alt="Feira rural" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3fdc?auto=format&fit=crop&w=400&q=80" alt="Mercado urbano" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Plantação" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Crianças aprendendo" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="Tecnologia no campo" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=400&q=80" alt="Cultura rural" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Cidade e campo" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Sustentabilidade" onclick="openModal(this)">
+      </div>
+      <!-- Modal para galeria -->
+      <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="modal-caption"></div>
+      </div>
+    </section>
+
+    <section class="container central" id="contato">
+      <h2>Vamos nos Conectar!</h2>
+      <p>Participe, envie sua dúvida ou sugestão. Juntos, campo e cidade são mais fortes!</p>
+      <form class="contato-form" onsubmit="return enviarFormulario(event)">
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <textarea placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>🌱 Festejando a Conexão entre o Campo e a Cidade &copy; 2025 | Desenvolvido por Comunidade AgroTech 🚜</p>
+  </footer>
+  <script>
+    // Modal da galeria
+    function openModal(img) {
+      document.getElementById("modal").style.display = "block";
+      document.getElementById("modal-img").src = img.src;
+      document.getElementById("modal-caption").innerHTML = img.alt;
+    }
+    function closeModal() {
+      document.getElementById("modal").style.display = "none";
+    }
+    // Formulário interativo
+    function enviarFormulario(event) {
+      event.preventDefault();
+      alert('Mensagem enviada! Obrigado pelo seu contato.');
+      return false;
+    }
+  </script>
+</body>
+</html>
